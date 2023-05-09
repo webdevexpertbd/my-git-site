@@ -13,10 +13,10 @@ body {
     width: 100%;
     padding: 15px 0;
     text-align: center;
+    background-color: rgba(207, 205, 202, 0.37);
 }
 
 .header nav {
-    background-color: blue;
     text-align: center;
 }
 
