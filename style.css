@@ -9,3 +9,29 @@ body {
     padding: 0 7%;
 }
 
+.header {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header nav {
+    background-color: blue;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style: none;
+}
+.header nav ul li {
+    display: inline-flex;
+}
+.header nav ul li a {
+    display: inline-block;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: #000;
+}
+.header nav ul li a:hover {
+    color: #ffff;
+}
