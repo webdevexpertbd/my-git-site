@@ -7,6 +7,7 @@
 body {
     background-color: rgba(213, 218, 213, 0.466);
     padding: 0 7%;
+    counter-reset: section;
 }
 
 .header {
@@ -34,4 +35,33 @@ body {
 }
 .header nav ul li a:hover {
     color: #ffff;
+}
+
+input {
+    padding: 7px 10px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+input:focus {
+    color: rgb(14, 185, 22);
+}
+
+ul li:nth-child(2n+1) {
+    background-color: orange;
+}
+
+
+a:visited {
+    color: rgb(5, 16, 179);
+}
+
+.before h1::before  {
+    content: "Hello";
+}
+
+ul p::before {
+    counter-increment: section;
+    content: "Crush " counter(section) ": "
 }
